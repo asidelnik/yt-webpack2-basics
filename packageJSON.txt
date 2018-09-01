@@ -1,0 +1,10 @@
+"build": "webpack --mode development --entry ./src/js/app.js --output ./dist/bundle.js",
+--mode development - dev webpack
+
+"build:prod": "webpack --entry ./src/js/app.js --output ./dist/bundle.js -p"
+-p - prod webpack
+
+--entry - entry file
+--output - output file
+
+"build": "webpack-dev-server --mode development",
